@@ -1,0 +1,51 @@
+body {
+    background: rgb(0, 0, 0);
+  } 
+  
+  h1 {
+    font-size: 70px;
+  }
+
+  .app-wrapper {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+  }
+  
+  #title-container, #weather-container{
+    text-shadow: 3px 3px 3px #3c3939;
+  } 
+  
+  #title-container {
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  #weather-container {
+    opacity: 0.9;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+  } 
+  
+  #location {
+    font-size: 50px;
+  }
+  
+  
+  #temperature, #weatherGeneral, #weatherDescription {
+    font-size: 30px;
+  }
+  
+  
+  #changeMetric {
+    border: 1px solid white;
+    margin-top: 30px;
+    color: black;
+  }
+  
